@@ -1,0 +1,46 @@
+@font-face{
+    font-family:'Raleway-Black';
+    src: url(<Raleway-Black.ttf>);
+}
+#conteneur
+{   
+    display: flex;
+}
+#nav
+{
+    text-align: right;
+}
+#part1
+{   
+    display: flex;
+}
+#part2
+{   
+    display: flex;
+}
+#end
+{
+    display: flex;
+    justify-content: space-between;
+}
+footer
+{
+    width: 100%;
+    border: 1px groove ;
+    padding:5px;
+    background-color: #F2F2F2;
+}
+#blok
+{
+    width: 100%;
+    border: 1px groove ;
+    border-radius:10px;
+    background-color: #F2F2F2;
+}
+aside
+{
+    width: 50%;
+    border: 1px groove ;
+    border-radius:10px;
+    background-color: #F2F2F2;
+}
