@@ -1,7 +1,12 @@
 
-@font-face{
+@font-face
+{
     font-family:'Raleway-Black';
     src: url(<Raleway-Black.ttf>);
+}
+.fas
+{
+    color: #0065FC;
 }
 #conteneur
 {   
@@ -33,7 +38,7 @@ footer
 }
 #blok
 {
-    width: 100%;
+    width: 65%;
     border: 1px groove ;
     border-radius:10px;
     background-color: #F2F2F2;
