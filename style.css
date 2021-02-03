@@ -1,4 +1,9 @@
-
+body
+{ 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 @font-face
 {
     font-family:'Raleway-Black';
@@ -7,14 +12,39 @@
 .fas
 {
     color: #0065FC;
+    height: 30px; 
+	width: 30px; 
+	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
+	border-radius: 50%;
+    
 }
-#conteneur
+header
 {   
     display: flex;
+    justify-content: space-between;
 }
-#nav
+nav
 {
-    text-align: right;
+    margin-top: 10px;
+}
+a
+{
+    
+        padding: 40px;
+        text-decoration: None;
+        font-size: 18px;
+        font-weight: 600;
+        color: #000;
+        
+    
+}
+a:hover
+{
+    color: #0065fc;
+    border-top: 3px solid #0065fc;
+    padding-top: 5px;
+}
 }
 #part1
 {   
@@ -24,13 +54,10 @@
 {   
     display: flex;
 }
-#end
+footer
 {
     display: flex;
     justify-content: space-between;
-}
-footer
-{
     width: 100%;
     border: 1px groove ;
     padding:5px;
@@ -42,11 +69,24 @@ footer
     border: 1px groove ;
     border-radius:10px;
     background-color: #F2F2F2;
+   
 }
 aside
 {
-    width: 50%;
+    width: 25%;
     border: 1px groove ;
     border-radius:10px;
     background-color: #F2F2F2;
+}
+#conteneur
+{
+    display: flex;
+ 
+}
+#mar1
+{
+    width: 100%;
+    border 1px groove;
+    border-radius: 1px ;
+    background-color: #FFFF;
 }
