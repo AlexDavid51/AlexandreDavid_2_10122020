@@ -3,35 +3,27 @@ body
     width: 100%;
     margin: 0;
     padding: 0;
-}
-@font-face
-{
-    font-family:'Raleway-Black';
-    src: url(<Raleway-Black.ttf>);
-}
-.fas
-{
-    color: #0065FC;
-    height: 30px; 
-	width: 30px; 
-	background-color: #F2F2F2;
-	border: 1px solid #F2F2F2;
-	border-radius: 50%;
-    
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 header
 {   
     display: flex;
     justify-content: space-between;
+    
+}
+img
+{
+    margin-top: 40px;
 }
 nav
 {
-    margin-top: 10px;
+    margin-top: 50px;
 }
 a
 {
     
-        padding: 40px;
+        padding: 50px;
         text-decoration: None;
         font-size: 18px;
         font-weight: 600;
@@ -43,7 +35,41 @@ a:hover
 {
     color: #0065fc;
     border-top: 3px solid #0065fc;
-    padding-top: 5px;
+    padding-top: 45px;
+}
+.fas
+{   
+    color: #0065FC;
+    font-size: 18px;
+
+}
+#conteneur .fas 
+{
+ 
+	background-color: #DEEBFF;
+    border-radius :50%;
+    border:2px solid #DEEBFF;
+    padding:21px;
+    
+}
+.filtres
+{
+
+    background-color: #FFFF;
+    border-radius :50px;
+    border:1px solid #F2F2F2;
+    padding:2px;
+    display: flex;
+    align-items: center;
+}
+.filtres p
+{
+    padding: 0px 30px 0px 30px;
+}
+
+form
+{
+    display: flex;
 }
 }
 #part1
@@ -69,6 +95,7 @@ footer
     border: 1px groove ;
     border-radius:10px;
     background-color: #F2F2F2;
+    
    
 }
 aside
@@ -81,12 +108,31 @@ aside
 #conteneur
 {
     display: flex;
+    justify-content: space-around;
  
 }
-#mar1
+figure
 {
-    width: 100%;
-    border 1px groove;
-    border-radius: 1px ;
+    width: fit-content;
+    height: 250px;
     background-color: #FFFF;
+    border-radius :10px;
+    border:2px solid#FFFF;
+    padding: 1px;
+   
+}
+figure img
+{
+    border-radius: 10px;
+    width: 350px;
+    margin-top: 0px;
+    
+}
+figcaption
+{
+    background-color: #ffffff;
+    margin-top: -120px;
+    position: relative;
+    
+
 }
