@@ -70,7 +70,48 @@ a:hover
 form
 {
     display: flex;
+    
+
 }
+form .fas
+{
+    border-radius :20%;
+    padding:21px;
+}
+.fas.fa-map-marker-alt
+{
+    background-color: #F2F2F2;
+    color: #000;
+    border-radius: 25%;
+}
+.search_data
+{
+    border-color: #ffffff;
+   
+}
+.btn-right-fleche
+{
+    color: #ffffff;
+    background-color:#0065fc;
+    border-radius: 25%; 
+
+}
+.info
+{
+    display: flex;
+
+}
+.fas.fa-info
+{	background-color: #FFFF;
+    border-radius :50%;
+    border:1px solid #000000;
+    padding:15px;
+}
+.info p
+{
+
+    padding: 0px 0px 0px 15px;
+
 }
 #part1
 {   
@@ -78,6 +119,10 @@ form
 }
 #part2
 {   
+    display: flex;
+}
+#part3
+{
     display: flex;
 }
 footer
@@ -91,19 +136,12 @@ footer
 }
 #blok
 {
-    width: 65%;
-    border: 1px groove ;
-    border-radius:10px;
-    background-color: #F2F2F2;
-    
+
    
 }
 aside
 {
-    width: 25%;
-    border: 1px groove ;
-    border-radius:10px;
-    background-color: #F2F2F2;
+
 }
 #conteneur
 {
@@ -131,7 +169,7 @@ figure img
 figcaption
 {
     background-color: #ffffff;
-    margin-top: -120px;
+    margin-top: -115px;
     position: relative;
     
 
