@@ -2,7 +2,7 @@ body
 { 
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding-left: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
    
@@ -355,8 +355,14 @@ footer h3
     padding-right: 300px;
 }
 
-ul{
+ul
+{
     list-style-type: none;
+}
+
+li
+{
+    margin-bottom: 12px;
 }
 
 article figcaption
@@ -1029,7 +1035,7 @@ article figcaption
 
     #global
     {
-        flex-direction: column;
+        width: 100%;
     }
 
     #part1 
@@ -1041,6 +1047,8 @@ article figcaption
         padding: 0%;
 
     }
+
+    
 
     #part1 figure
     {
@@ -1053,6 +1061,11 @@ article figcaption
         box-shadow: 0px 3px 0px #F2F2F2; 
     }
 
+    .hebitem
+    {
+        width: 50%;
+    }
+
     #part3
     {
         border-radius: 0%;
@@ -1174,222 +1187,6 @@ article figcaption
         padding: 17px;
     }
 
-
-    i.fas.fa-search
-    {
-        display: initial;
-    }
-
-    button 
-    {
-        border-radius: 15px 15px 15px 15px;
-        padding: 0px 0px;
-        width: 15%;
-        
-    }
-
-    button span 
-    {
-        display: none;
-    }
-
-    .ele1
-    {
-        position: relative;
-        left: 39px; 
-        border-bottom: 3px solid #f2f2f2;
-        border-top: none;
-        width: 50%;
-        
-    }
-
-    .ele2
-    {
-        position: relative;
-        left: 66px;;
-        border-bottom: 3px solid #f2f2f2;
-        border-top: none;
-        width: 50%;
-
-    }
-    .ele3
-    {
-        position:relative;
-        top: -83px;
-        color: #0065fc;
-    }
-    a
-    {
-        color: inherit;
-    }
-}
-@media screen and (min-width:1226px) and (max-width: 1440px)
-{
-
-    body{
-        width: 100%;
-    }
-
-    header
-    {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #entete
-    {
-        padding-left: 10px;
-    }
-
-    #hebergements
-    {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    #part1 
-    {
-        background-color: white;
-        width: 75%;
-        max-width: 100%;
-        margin-right: 0%;
-        padding: 0%;
-        display: none;
-
-    }
-
-    #part1 figure
-    {
-        width: 100%;
-        margin: 0px;
-    }
-
-    #part1 figcaption
-    {
-        box-shadow: 0px 3px 0px #F2F2F2; 
-    }
-
-    #part3
-    {
-        border-radius: 0%;
-        width: 90%;
-    }
-
-    #wrapper
-    {
-        display:flex;
-    }
-
-    #part3 figure
-    {
-        display: flex;
-        width: 90%;
-        margin: 10px;
-        border: 1px solid#FFFF;
-        border-radius: 20px;
-    }
-
-    #part3 figure img 
-    {
-        height: 175px;
-        object-fit: cover;
-
-    }
-
-    #actividad
-    {
-        flex-direction: column;
-        padding: 0px;
-    }
-
-    article
-    {
-        max-width: 100%;
-        max-height: 100%;
-        width: 75%;
-        height: fit-content;
-
-    }
-
-    #actividad figure
-    {
-        width: 100%;
-    }
-    
-    #actividad img
-    {
-    
-        height: 150px;
-        width: 100%;
-    }
-
-    footer
-    {
-        
-        padding: 0px;
-    }
-
-    #mform
-    {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    
-    nav a:hover
-    {
-        color: #0065fc;
-        border-bottom: 3px solid #0065fc;
-        border-top: 0px;
-        padding-top: 0px;
-        padding-left: 0px;
-        
-    }
-
-    #conteneur 
-    {
-        display: flex;
-        margin-top: 30px;
-        flex-wrap: wrap;
-    
-    }
-
-    #cont1
-    {
-        display: flex;
-    }
-
-    #cont2
-    {
-        width: 50%;
-    }
-
-    #cont3
-    {
-        width: 71%;
-    }
-
-    #conteneur .fas {
-        background-color: #DEEBFF;
-        border-radius: 50%;
-        border: 2px solid #DEEBFF;
-        padding: 12px;
-        margin: -10px;
-    }
-
-    #conteneur i.fas.fa-money-bill-wave
-    {
-        padding: 17px
-    }
-
-    #conteneur i.fas.fa-child
-    {
-        padding: 17px;
-    }
-
-    #conteneur i.fas.fa-heart
-    {
-        padding: 17px;
-    }
 
     i.fas.fa-search
     {
