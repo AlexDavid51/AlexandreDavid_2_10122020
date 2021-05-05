@@ -20,6 +20,12 @@ header img
     margin-top: 40px;
     padding: 5px;
 }
+
+input.search_data
+{
+    font-weight: 900;
+}
+
 nav
 {
     margin-top: 50px;
@@ -37,7 +43,14 @@ a
 
 nav a
 {
-    padding-right: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+nav strong
+{
+    padding-right: 25px;
+    padding-left: 25px;
 }
 
 
@@ -51,7 +64,12 @@ nav a:hover
     color: #0065fc;
     border-top: 3px solid #0065fc;
     padding-top: 45px;
-    padding-left: 50px;
+    
+}
+
+nav a:visited
+{
+    color: #000;
 }
 
 
@@ -510,6 +528,7 @@ article figcaption
     {
         flex-direction: column;
         padding: 0px;
+        width: 90%;
     }
 
     #mform
@@ -518,6 +537,17 @@ article figcaption
         padding-right: 0px;
     }
     
+    nav
+    {
+        border-bottom: 3px solid #f2f2f2;
+        border-top: none;
+    }
+
+    nav strong {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
     nav a:hover
     {
         color: #0065fc;
@@ -581,8 +611,6 @@ article figcaption
     {
         position: relative;
         left: 39px; 
-        border-bottom: 3px solid #f2f2f2;
-        border-top: none;
         width: 50%;
         
     }
@@ -591,8 +619,6 @@ article figcaption
     {
         position: relative;
         left: 66px;;
-        border-bottom: 3px solid #f2f2f2;
-        border-top: none;
         width: 50%;
 
     }
@@ -605,6 +631,8 @@ article figcaption
     a
     {
         color: inherit;
+        width: 100%;
+        display: block;
     }
 }
 @media screen and (min-width:601px) and (max-width: 800px)
@@ -712,6 +740,7 @@ article figcaption
     {
         flex-direction: column;
         padding: 0px;
+        width: 90%;
     }
 
     #mform
@@ -720,6 +749,18 @@ article figcaption
         padding-right: 0px;
     }
     
+    nav
+    {
+        border-bottom: 3px solid #f2f2f2;
+        border-top: none;
+    }
+
+    nav strong 
+    {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
     nav a:hover
     {
         color: #0065fc;
@@ -783,8 +824,6 @@ article figcaption
     {
         position: relative;
         left: 39px; 
-        border-bottom: 3px solid #f2f2f2;
-        border-top: none;
         width: 50%;
         
     }
@@ -793,8 +832,6 @@ article figcaption
     {
         position: relative;
         left: 66px;;
-        border-bottom: 3px solid #f2f2f2;
-        border-top: none;
         width: 50%;
 
     }
@@ -807,6 +844,8 @@ article figcaption
     a
     {
         color: inherit;
+        width: 100%;
+        display: block;
     }
 }
 @media screen and (min-width:801px) and (max-width: 1024px)
@@ -913,12 +952,25 @@ article figcaption
     {
         flex-direction: column;
         padding: 0px;
+        width: 90%;
     }
 
     #mform
     {
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    nav
+    {
+        border-bottom: 3px solid #f2f2f2;
+        border-top: none;
+    }
+
+    nav strong
+    {
+        padding-right: 0px;
+        padding-left: 0px;
     }
     
     nav a:hover
@@ -984,8 +1036,6 @@ article figcaption
     {
         position: relative;
         left: 39px; 
-        border-bottom: 3px solid #f2f2f2;
-        border-top: none;
         width: 50%;
         
     }
@@ -994,8 +1044,6 @@ article figcaption
     {
         position: relative;
         left: 66px;;
-        border-bottom: 3px solid #f2f2f2;
-        border-top: none;
         width: 50%;
 
     }
@@ -1008,6 +1056,8 @@ article figcaption
     a
     {
         color: inherit;
+        width: 100%;
+        display: block;
     }
 }
 @media screen and (min-width:1025px) and (max-width: 1225px)
