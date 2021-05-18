@@ -510,7 +510,7 @@ article figcaption
         max-width: 100%;
         margin-right: 0%;
         padding: 0%;
-
+        padding-left: 10px;
     }
 
     #part1 figure
@@ -554,7 +554,7 @@ article figcaption
 
     #actividad figure
     {
-        width: 82%;
+        width: 95%;
     }
     
     #actividad img
@@ -635,7 +635,7 @@ article figcaption
         border-radius: 50%;
         border: 2px solid #DEEBFF;
         padding: 12px;
-        margin: -10px;
+        margin: -2px;
     }
 
     i.fas.fa-search
@@ -717,6 +717,7 @@ article figcaption
         padding: 0%;
         margin: auto;
         max-width: 90%;
+        padding-left: 10px;
 
     }
 
@@ -768,7 +769,7 @@ article figcaption
 
     #actividad figure
     {
-        width: 85%;
+        width: 95%;
     }
     
     #actividad img
@@ -850,7 +851,7 @@ article figcaption
         border-radius: 50%;
         border: 2px solid #DEEBFF;
         padding: 12px;
-        margin: -10px;
+        margin: -2px;
     }
 
     i.fas.fa-search
@@ -937,6 +938,7 @@ article figcaption
         max-width: 100%;
         margin-right: 0%;
         padding: 0%;
+        padding-left: 10px;
 
     }
 
@@ -991,7 +993,7 @@ article figcaption
 
     #actividad figure
     {
-        width: 100%;
+        width: 95%;
     }
     
     #actividad img
@@ -1064,7 +1066,7 @@ article figcaption
         border-radius: 50%;
         border: 2px solid #DEEBFF;
         padding: 12px;
-        margin: -10px;
+        margin: -2px;
     }
 
     i.fas.fa-search
@@ -1151,6 +1153,7 @@ article figcaption
         max-width: 100%;
         margin-right: 0%;
         padding: 0%;
+        padding-left: 10px;
 
     }
 
@@ -1275,7 +1278,7 @@ article figcaption
         border-radius: 50%;
         border: 2px solid #DEEBFF;
         padding: 12px;
-        margin: -10px;
+        margin: -2px;
     }
 
     #conteneur i.fas.fa-money-bill-wave
