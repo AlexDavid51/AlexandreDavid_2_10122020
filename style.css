@@ -490,6 +490,7 @@ article figcaption
     {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     #entete
@@ -697,6 +698,7 @@ article figcaption
     {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     #entete
@@ -913,6 +915,7 @@ article figcaption
     {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     #entete
@@ -1128,6 +1131,7 @@ article figcaption
     {
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
 
     #entete
