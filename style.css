@@ -7,6 +7,9 @@ body
     font-size: 16px;
    
 }
+
+
+
 header
 {   
     display: flex;
@@ -51,16 +54,29 @@ a
 
 }
 
+a :hover
+{
+    cursor: pointer;
+}
+
+#conteneur :hover
+{
+    cursor: pointer;
+}
+
 nav a
 {
     padding-right: 25px;
     padding-left: 25px;
+    color:black;
 }
 
 nav strong
 {
     padding-right: 25px;
     padding-left: 25px;
+    color:#0065FC
+
 }
 
 
@@ -74,6 +90,8 @@ nav a:hover
     color: #0065fc;
     border-top: 3px solid #0065fc;
     padding-top: 45px;
+    cursor: pointer;
+    transition-duration: 0.1s;
     
 }
 
@@ -126,7 +144,7 @@ font-weight: bold;
     border-radius :50%;
     border:2px solid #DEEBFF;
     padding: 16px;
-    margin: -10px;
+    margin: -3px;
     
 }
 #conteneur h2
@@ -143,13 +161,24 @@ font-weight: bold;
     border-radius: 30px;
     margin-bottom: 15px;
 }
-.filtres p
+
+.filtres:hover
 {
-    padding: 10px 30px 10px 30px;
-    font-weight: bold;
-    margin: 0px;
+    transform: translateY(10px);
+    background-color: #F2F2F2;
     
 }
+
+
+#conteneur button
+{
+    background-color: transparent;
+    color: black;
+    padding-left: 7px;
+}
+
+
+
 form
 {
     display: flex; 
@@ -263,10 +292,16 @@ i.fas.fa-search
     margin-bottom: 56px;
 }
 
+.hebitem:hover
+{
+    transform: scale(1.02);
+}
+
 #global
 {
     display: flex;
     flex-wrap: wrap;
+    width: 97%;
     
 }
 
@@ -309,6 +344,11 @@ i.fas.fa-search
     display: flex;
     width: 403px;
     
+}
+
+#part3 figure:hover
+{
+    transform: scale(1.02);
 }
 
 #part3 figure img
@@ -440,6 +480,12 @@ article figcaption
     display: flex;
     justify-content:space-between ;
     width: 90%;
+}
+
+#actividad figure:hover
+
+{
+    transform: scale(1.02);
 }
 
 #vieuxport img
@@ -602,9 +648,10 @@ article figcaption
     {
         color: #0065fc;
         border-bottom: 3px solid #0065fc;
+        border-bottom-width: 100%;
         border-top: 0px;
         padding-top: 0px;
-        padding-left: 0px;
+
         
     }
 
@@ -614,6 +661,12 @@ article figcaption
         margin-top: 30px;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+
+    #conteneur button
+    {
+        width: 100%;
+        padding-right: 20px;
     }
 
     #cont1
@@ -660,7 +713,6 @@ article figcaption
     .ele1
     {
         position: relative;
-        left: 39px; 
         width: 50%;
         
     }
@@ -668,7 +720,7 @@ article figcaption
     .ele2
     {
         position: relative;
-        left: 66px;;
+        left: 42px;;
         width: 50%;
 
     }
@@ -833,6 +885,12 @@ article figcaption
         flex-direction: column;
     }
 
+    #conteneur button
+    {
+        width: 100%;
+        padding-right: 20px;
+    }
+
     #cont1
     {
         display: flex;
@@ -876,8 +934,7 @@ article figcaption
 
     .ele1
     {
-        position: relative;
-        left: 39px; 
+        position: relative; 
         width: 50%;
         
     }
@@ -885,7 +942,7 @@ article figcaption
     .ele2
     {
         position: relative;
-        left: 66px;;
+        left: 42px;;
         width: 50%;
 
     }
@@ -1049,6 +1106,12 @@ article figcaption
         flex-direction: column;
     }
 
+    #conteneur button
+    {
+        width: 100%;
+        padding-right: 20px;
+    }
+
     #cont1
     {
         display: flex;
@@ -1093,7 +1156,6 @@ article figcaption
     .ele1
     {
         position: relative;
-        left: 39px; 
         width: 50%;
         
     }
@@ -1101,7 +1163,7 @@ article figcaption
     .ele2
     {
         position: relative;
-        left: 66px;;
+        left: 42px;;
         width: 50%;
 
     }
