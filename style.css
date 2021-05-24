@@ -544,6 +544,11 @@ article figcaption
         padding-left: 10px;
     }
 
+    form .fas
+    {
+        border: none;
+    }
+
     #hebergements
     {
         display: flex;
@@ -756,6 +761,11 @@ article figcaption
     #entete
     {
         padding-left: 10px;
+    }
+
+    form .fas
+    {
+        border: none;
     }
 
     #hebergements
@@ -980,6 +990,11 @@ article figcaption
         padding-left: 10px;
     }
 
+    form .fas
+    {
+        border: none;
+    }
+
     #hebergements
     {
         display: flex;
@@ -1199,6 +1214,11 @@ article figcaption
     #entete
     {
         padding-left: 10px;
+    }
+
+    form .fas
+    {
+        border: none;
     }
 
     #hebergements
