@@ -1,7 +1,8 @@
 body
 { 
     width: 100%;
-    margin-left: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
     padding-left: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -529,6 +530,7 @@ article figcaption
     body{
         width: 100%;
         margin-left: 0px;
+        margin-right: 0px;
         padding: 0px;
     }
 
@@ -749,6 +751,7 @@ article figcaption
     body{
         width: 100%;
         margin-left: 0px;
+        margin-right: 0px;
         padding: 0px;
     }
 
@@ -976,6 +979,7 @@ article figcaption
     body{
         width: 100%;
         margin-left: 0px;
+        margin-right: 0px;
         padding: 0px;
     }
 
@@ -1202,6 +1206,7 @@ article figcaption
     body{
         width: 100%;
         margin-left: 0px;
+        margin-right: 0px;
         padding: 0px;
     }
 
