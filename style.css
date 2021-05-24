@@ -631,7 +631,7 @@ article figcaption
     {
         flex-direction: column;
         padding: 0px;
-        width: 90%;
+        width: 100%;
     }
 
     #mform
@@ -860,7 +860,7 @@ article figcaption
     {
         flex-direction: column;
         padding: 0px;
-        width: 90%;
+        width: 100%;
     }
 
     #mform
@@ -1087,7 +1087,7 @@ article figcaption
     {
         flex-direction: column;
         padding: 0px;
-        width: 90%;
+        width: 100%;
     }
 
     #mform
@@ -1325,6 +1325,7 @@ article figcaption
     {
         
         padding: 0px;
+        width: 100%;
     }
 
     #mform
