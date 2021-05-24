@@ -700,6 +700,7 @@ article figcaption
     i.fas.fa-search
     {
         display: initial;
+        border: none;
     }
 
     button 
