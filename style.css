@@ -1,6 +1,6 @@
 body
 { 
-    width: 100%;
+    
     margin-left: 40px;
     margin-right: 40px;
     padding-left: 20px;
@@ -293,6 +293,11 @@ i.fas.fa-search
     margin-bottom: 56px;
 }
 
+.hebitem
+{
+    width: 33%;
+}
+
 .hebitem:hover
 {
     transform: scale(1.02);
@@ -302,7 +307,7 @@ i.fas.fa-search
 {
     display: flex;
     flex-wrap: wrap;
-    width: 97%;
+
     
 }
 
@@ -442,6 +447,7 @@ article
 footer
 {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     border: 1px #F2F2F2 ;
     padding:5px;
@@ -450,16 +456,17 @@ footer
    
 }
 
+footer article
+{
+    margin-top: 20px;
+}
+
 footer h3
 {
     padding-left: 40px;
 }
 
-#mform
-{
-    padding-left: 300px;
-    padding-right: 300px;
-}
+
 
 ul
 {
@@ -478,9 +485,20 @@ article figcaption
 
 #actividad
 {
-    display: flex;
+    display: table;
     justify-content:space-between ;
     width: 90%;
+    clear: both;
+}
+
+#actividad div
+{
+    float:left;
+}
+
+#frioul
+{
+    clear: both;
 }
 
 #actividad figure:hover
@@ -489,25 +507,24 @@ article figcaption
     transform: scale(1.02);
 }
 
+#actividad figure
+{
+    width: 350px;
+}
+
 #vieuxport img
 {
     height: 500px;
 }
 
-#vieuxport figure
-{
-    width: 300px;
-}
+
 
 #calanque img
 {
     height: 500px;
 }
 
-#calanque figure
-{
-    width: 300px;
-}
+
 
 #pomegue img
 {
@@ -524,7 +541,7 @@ article figcaption
     height: 185px;
 }
 
-@media screen and (min-width:375px) and (max-width: 600px)
+@media screen and (min-width:1px) and (max-width:374px)
 {
 
     body{
@@ -565,6 +582,18 @@ article figcaption
         margin-right: 0%;
         padding: 0%;
         padding-left: 10px;
+    }
+
+    #global
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .hebitem
+    {
+        width: 100%;
     }
 
     #part1 figure
@@ -736,6 +765,7 @@ article figcaption
     {
         position:relative;
         top: -83px;
+        right: 60px;
         color: #0065fc;
     }
     a
@@ -745,7 +775,7 @@ article figcaption
         display: block;
     }
 }
-@media screen and (min-width:601px) and (max-width: 800px)
+@media screen and (min-width:375px) and (max-width: 424px)
 {
 
     body{
@@ -973,7 +1003,7 @@ article figcaption
         display: block;
     }
 }
-@media screen and (min-width:801px) and (max-width: 1024px)
+@media screen and (min-width:425px) and (max-width: 767px)
 {
 
     body{
@@ -1011,6 +1041,11 @@ article figcaption
         flex-direction: column;
     }
 
+    .hebitem
+    {
+        width: 100%;
+    }
+
     #part1 
     {
         background-color: white;
@@ -1036,7 +1071,7 @@ article figcaption
     #part3
     {
         border-radius: 0%;
-        width: 80%;
+        width: 100%;
     }
 
     #part3 figure
@@ -1200,7 +1235,7 @@ article figcaption
         display: block;
     }
 }
-@media screen and (min-width:1025px) and (max-width: 1225px)
+@media screen and (min-width:768px) and (max-width: 1023px)
 {
 
     body{
@@ -1311,13 +1346,33 @@ article figcaption
 
     #actividad figure
     {
-        width: 75%;
+        width: 350px;
     }
     
     #actividad img
     {
     
         height: 150px;
+        width: 100%;
+    }
+
+    #act1
+    {
+        display: flex;
+    }
+
+    #act2
+    {
+        display: flex;
+    }
+
+    #vieuxport figure 
+    {
+        width: 100%;
+    }
+
+    #calanque figure 
+    {
         width: 100%;
     }
 
@@ -1347,7 +1402,9 @@ article figcaption
     #conteneur 
     {
         display: flex;
+        flex-flow: nowrap;
         margin-top: 30px;
+
 
     }
 
@@ -1436,5 +1493,169 @@ article figcaption
     a
     {
         color: inherit;
+    }
+
+    
+}
+@media screen and (min-width:1024px) and (max-width: 1439px)
+{
+
+    body 
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+
+    #conteneur
+    {
+        flex-wrap: nowrap;
+    }
+
+    #hebergements
+    {
+        flex-wrap: nowrap;
+    }
+
+    #part1
+    {
+        margin-right: 1%;
+    }
+
+    #wrapper figure 
+    {
+        width: 80%;
+    }
+
+    .hebitem figure 
+    {   
+        width: 90%;
+
+    }
+
+    #actividad
+    {
+        width: 100%;
+        display: flex;
+    }
+
+    #calanque
+    {
+        width: 25%;
+    }
+
+    #vieuxport
+    {
+        width: 25%;
+    }
+
+    #calanque figure 
+    {
+        width: 30%;
+    }
+
+    #vieuxport figure 
+    {
+        width: 30%;
+    }
+
+    #act1
+    {
+        width: 25%;
+    }
+
+    #pomegue figure 
+    {
+        width: 50%;
+    }
+
+    #frioul figure 
+    {
+        width: 30%;
+    }
+
+    #act2
+    {
+        width: 30%;
+    }
+
+    #act2 figure 
+    {
+        width: 35%;
+    }
+
+    #act2 .longchamp 
+    {
+        width: 40%;
+    }
+
+}
+@media screen and (min-width:1440px) and (max-width: 1851px)
+{
+    #part1
+    {
+        margin-right: 1%;
+    }
+
+    .hebitem figure 
+    {   
+        width: 90%;
+
+    }
+
+    #actividad
+    {
+        width: 100%;
+        display: flex;
+    }
+
+    #calanque
+    {
+        width: 25%;
+    }
+
+    #vieuxport
+    {
+        width: 25%;
+    }
+
+    #calanque figure 
+    {
+        width: 40%;
+    }
+
+    #vieuxport figure 
+    {
+        width: 40%;
+    }
+
+    #act1
+    {
+        width: 25%;
+    }
+
+    #pomegue figure 
+    {
+        width: 70%;
+    }
+
+    #frioul figure 
+    {
+        width: 40%;
+    }
+
+    #act2
+    {
+        width: 30%;
+    }
+
+    #act2 figure 
+    {
+        width: 45%;
+    }
+
+    #act2 .longchamp 
+    {
+        width: 52%;
     }
 }
